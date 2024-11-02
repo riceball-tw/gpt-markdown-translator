@@ -11,9 +11,9 @@ const config = {
   basePath: __dirname,
   targetLanguages: ['en', 'zh-cn'],
   // Folder that contains the source Markdown files (markdown files inside folder is ok!)
-  sourceFolder: path.resolve(__dirname, './src/content/shortpost/zh-tw'),
+  sourceFolder: path.resolve(__dirname, '../src/content/shortpost/zh-tw'),
   // Folder that is the base contains the translated Markdown files
-  outputBasePath: path.resolve(__dirname, './src/content/shortpost'),
+  outputBasePath: path.resolve(__dirname, '../src/content/shortpost'),
   debug: true,
   apiKey: process.env.OPENAI_API_KEY,
   promptFile: path.resolve(__dirname, 'prompt.md'),
