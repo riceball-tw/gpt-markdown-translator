@@ -14,7 +14,7 @@ const config = {
   sourceFolder: path.resolve(__dirname, '../src/content/shortpost/zh-tw'),
   // Folder that is the base contains the translated Markdown files
   outputBasePath: path.resolve(__dirname, '../src/content/shortpost'),
-  debug: true,
+  debug: false,
   apiKey: process.env.OPENAI_API_KEY,
   promptFile: path.resolve(__dirname, 'prompt.md'),
   model: 'gpt-4o-mini',
